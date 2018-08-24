@@ -1,6 +1,8 @@
 # VF_NatureBioEng
 C++ code to simulate vascular blood flow and interstitial fluid transport.
-Written by Paul W. Sweeney (with contour files extracted from Timothy Secomb's O2 transport code: https://physiology.arizona.edu/people/secomb/greens)
+Written by Paul W. Sweeney (with biconjugate gradient method and contour files extracted from Timothy Secomb's O2 transport code: https://physiology.arizona.edu/people/secomb/greens)
+
+The Armadillo Sparse Linear Algebra library and SuperLU libraries are require to run the C++ code.
 
 Supplementary code for the Nature Biomedical Engineering paper titled: 'Combining optical imaging of cleared tissue with mathematical modelling and in vivo imaging to predict drug delivery and therapeutic response' 
 
