@@ -2,7 +2,8 @@
 C++ code to simulate vascular blood flow and interstitial fluid transport.
 Written by Paul W. Sweeney (with contour files extracted from Timothy Secomb's O2 transport code: https://physiology.arizona.edu/people/secomb/greens)
 
-Supplementary code for the Nature Biomedical Engineering paper titled: 'Combining optical imaging of cleared tissue with mathematical modelling and in vivo imaging to predict drug delivery and therapeutic response' by Angela d’Esposito*, Paul W. Sweeney2*, Morium Ali1, Magdy Saleh1, Rajiv Ramasawmy1, Thomas A Roberts1, Giulia Agliardi1, Adrien Desjardins3, Mark F Lythgoe1, R Barbara Pedley4, Rebecca J. Shipley2*, Simon Walker-Samuel1*
+Supplementary code for the Nature Biomedical Engineering paper titled: 'Combining optical imaging of cleared tissue with mathematical modelling and in vivo imaging to predict drug delivery and therapeutic response' 
+by Angela d’Esposito*, Paul W. Sweeney2*, Morium Ali1, Magdy Saleh1, Rajiv Ramasawmy1, Thomas A Roberts1, Giulia Agliardi1, Adrien Desjardins3, Mark F Lythgoe1, R Barbara Pedley4, Rebecca J. Shipley2*, Simon Walker-Samuel1*
 
 (*Joint first/last author)
 
