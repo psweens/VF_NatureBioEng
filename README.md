@@ -1,4 +1,5 @@
 Vascular and interstitial flow solver for discrete microvascular networks
+
 by Paul W. Sweeney, Simon Walker-Samuel and Rebecca J. Shipley
 
 A C++ programme using the Armadillo library (Sanderson & Curtin, 2016), which loads discrete microvascular networks and solves for vascular blood flow (blood pressure, vessel wall shear stress etc) and interstitial fluid transport (interstitial fluid pressure and velocity fields). This software package has been applied to realistic, whole vascular tumours in d'Esposito et al. 2018. Code was written by Paul W. Sweeney (with biconjugate gradient method and contour files used and altered from Timothy Secomb’s O2 transport code: https://physiology.arizona.edu/people/secomb/greens), under the supervision of Rebecca J. Shipley and Simon Walker-Samuel based at University College London in Mechanical Engineering and the Centre for Advanced Biomedical Imaging.
