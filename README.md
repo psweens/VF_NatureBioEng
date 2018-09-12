@@ -1,22 +1,18 @@
-# VF_NatureBioEng
-C++ code to simulate vascular blood flow and interstitial fluid transport.
-Written by Paul W. Sweeney (with biconjugate gradient method and contour files extracted from Timothy Secomb's O2 transport code: https://physiology.arizona.edu/people/secomb/greens)
+Vascular and interstitial flow solver for discrete microvascular networks
 
-The Armadillo Sparse Linear Algebra library and SuperLU libraries are require to run the C++ code.
+A C++ programme using the Armadillo library (Sanderson & Curtin, 2016), which loads discrete microvascular networks and solves for vascular blood flow (blood pressure, vessel wall shear stress etc) and interstitial fluid transport (interstitial fluid pressure and velocity fields). This software package has been applied to realistic, whole vascular tumours in d'Esposito et al. 2018. Code was written by Paul W. Sweeney (with biconjugate gradient method and contour files used and altered from Timothy Secomb’s O2 transport code: https://physiology.arizona.edu/people/secomb/greens), under the supervision of Rebecca J. Shipley and Simon Walker-Samuel based at University College London in Mechanical Engineering and the Centre for Advanced Biomedical Imaging.
 
-Supplementary code for the Nature Biomedical Engineering paper titled: 'Combining optical imaging of cleared tissue with mathematical modelling and in vivo imaging to predict drug delivery and therapeutic response' 
+The vascular component uses Poiseuille's Law for flow, empirical laws to calculate blood viscosity (Pries et al. 2005) and (if selected) uses an iterative scheme to solve for vascular haematocrit distributions (Pries et al. 1989).
 
-by Angela d’Esposito, Paul W. Sweeney2, Morium Ali1, Magdy Saleh1, Rajiv Ramasawmy1, Thomas A Roberts1, Giulia Agliardi1, Adrien Desjardins3, Mark F Lythgoe1, R Barbara Pedley4, Rebecca J. Shipley2, Simon Walker-Samuel1
+The interstitial component solves Darcy's Law in an axisymmetric, spherical domain where point sources of flux are distributed along the vasculature and Green's functions to link the vascular and interstitial domains.
 
-(Ad'E & PWS / RJS & SWS - Joint first/last author)
+References:
 
-1 Centre for Advanced Biomedical Imaging, Division of Medicine, University College London
+d'Esposito A*, Sweeney P*, Ali M, Saleh M, Ramasawmy R, Roberts T, Agliardi G, Desjardins A, Lythgoe M, Pedley R, Shipley R*, Walker-Samuel S*. (2018). Computational fluid dynamics with imaging of cleared tissue and of in vivo perfusion predicts drug uptake and treatment responses in tumours. Nature Biomedical Engineering.
+*Joint first/last author.
 
-2 Department of Mechanical Engineering, University College London
+C. Sanderson and R. Curtin. Armadillo: a template-based C++ library for linear algebra. Journal of Open Source Software, Vol. 1, pp. 26, 2016.
 
-3 Department of Medical Physics, University College London
+Pries, A. R. and Secomb, T. W. 2005. Microvascular blood viscosity in vivo and the endothelial surface layer. American journal of physiology. Heart and circulatory physiology 289:H2657–H2664.
 
-4 Cancer Institute, University College London
-
-
-This program is freely available for non-commercial use, provided appropriate acknowledgement is given. Commercial users please contact us before using this program. No assurance is given that it is free of errors and any use is at the user’s risk.
+Pries, A. R., Ley, K., Claassen, M., and Gaehtgens, P. 1989. Red cell distribution at microvascular bifurcations. Microvascular research 38:81–101.
