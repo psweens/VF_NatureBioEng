@@ -7,7 +7,7 @@ This C++ library has been used to simulate fluid transport in microvascular tiss
 This microvascular flow solver is the 1st generation version of the [code](https://zenodo.org/record/1414160#.YXbN7y1Q1bV) which forms the basis of the REANIMATE (**Rea**listic **N**umerical **I**mage-based **M**odelling of Biologic**a**l **T**issue Substrat**e**s) framework published [here](http://www.nature.com/articles/s41551-018-0306-y) and corresponding mathematical methods [here](https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1006751).
 
 The flow solver implements several mathematical models in research literature including:
-* [Poiseuille's Law](https://www.annualreviews.org/doi/10.1146/annurev.fl.25.010193.000245) for axisymmetric, laminar pipe flow in 1D networks with known boundary conditions.
+* [Poiseuille's Law](https://www.annualreviews.org/doi/10.1146/annurev.fl.25.010193.000245) for steady-state,axisymmetric, laminar pipe flow in 1D networks with known boundary conditions.
 * [Empirical blood viscosity laws](https://journals.physiology.org/doi/full/10.1152/ajpheart.00297.2005) to compute bulk blood viscosity as a function of vessel diameter and haematocrit, thereby capturing the Fåhraeus-Lindqvist effect.
 * [Empirical phase separation law](https://www.ahajournals.org/doi/10.1161/01.res.67.4.826?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) to calculate the disproportion distribution of haematocrit at microvascular bifurcations.
 * [Blood flow estimation model](https://onlinelibrary.wiley.com/doi/10.1111/j.1549-8719.2012.00184.x) to simulate blood flow in a microvascular network with incomplete boundary conditions.
