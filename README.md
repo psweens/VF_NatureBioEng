@@ -2,7 +2,7 @@
 
 ***A 2nd generation, user-friendly version of this code is currently in development.***
 
-This C++ library has been used to simulate fluid transport in microvascular tissue here. Vascular networks are imported as weighted, undirected graphs which represent a network(s) of blood vessels generated either synthetically or by segmenting and skeletonising biomedical images. 
+This C++ library has been used to simulate fluid transport in microvascular tissue [here](http://www.nature.com/articles/s41551-018-0306-y). Vascular networks are imported as weighted, undirected graphs which represent a network(s) of blood vessels generated either synthetically or by segmenting and skeletonising biomedical images. 
 
 This microvascular flow solver is the 1st generation version of the [code](https://zenodo.org/record/1414160#.YXbN7y1Q1bV) which forms the basis of the REANIMATE (**Rea**listic **N**umerical **I**mage-based **M**odelling of Biologic**a**l **T**issue Substrat**e**s) framework published [here](http://www.nature.com/articles/s41551-018-0306-y) and corresponding mathematical methods [here](https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1006751).
 
