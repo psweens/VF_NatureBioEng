@@ -4,9 +4,9 @@
 
 This C++ library has been used to simulate fluid transport in microvascular tissue here. Vascular networks are imported as weighted, undirected graphs which represent a network(s) of blood vessels generated either synthetically or by segmenting and skeletonising biomedical images. 
 
-The Reanimate C++ library is the 1st generation version of the [code](https://zenodo.org/record/1414160#.YXbN7y1Q1bV) which forms the basis of the REANIMATE (**Rea**listic **N**umerical **I**mage-based **M**odelling of Biologic**a**l **T**issue Substrat**e**s) framework published [here](http://www.nature.com/articles/s41551-018-0306-y) and corresponding mathematical methods [here](https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1006751).
+This microvascular flow solver is the 1st generation version of the [code](https://zenodo.org/record/1414160#.YXbN7y1Q1bV) which forms the basis of the REANIMATE (**Rea**listic **N**umerical **I**mage-based **M**odelling of Biologic**a**l **T**issue Substrat**e**s) framework published [here](http://www.nature.com/articles/s41551-018-0306-y) and corresponding mathematical methods [here](https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1006751).
 
-Reanimate implements several mathematical models in research literature including:
+The flow solver implements several mathematical models in research literature including:
 * [Poiseuille's Law](https://www.annualreviews.org/doi/10.1146/annurev.fl.25.010193.000245) for axisymmetric, laminar pipe flow in 1D networks with known boundary conditions.
 * [Empirical blood viscosity laws](https://journals.physiology.org/doi/full/10.1152/ajpheart.00297.2005) to compute bulk blood viscosity as a function of vessel diameter and haematocrit, thereby capturing the Fåhraeus-Lindqvist effect.
 * [Empirical phase separation law](https://www.ahajournals.org/doi/10.1161/01.res.67.4.826?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) to calculate the disproportion distribution of haematocrit at microvascular bifurcations.
@@ -35,7 +35,7 @@ git clone https://github.com/psweens/VF_NatureBioEng.git
 ```
 
 ## Contributing
-The Reanimate C++ library is an open-source project started by [Dr Paul Sweeney](www.psweeney.co.uk) during his PhD at University College London under the supervision of [Prof. Rebecca Shipley](https://mecheng.ucl.ac.uk/people/profile/dr-rebecca-shipley/) and [Prof. Simon Walker-Samuel](http://simonwalkersamuel.com). 
+This C++ library is an open-source project started by [Dr Paul Sweeney](www.psweeney.co.uk) during his PhD at University College London under the supervision of [Prof. Rebecca Shipley](https://mecheng.ucl.ac.uk/people/profile/dr-rebecca-shipley/) and [Prof. Simon Walker-Samuel](http://simonwalkersamuel.com). 
 
 This Github repository **is not maintained**. However, a 2nd generation, user-friendly version of this code is currently in development. Please contact me directly for further details.
 
